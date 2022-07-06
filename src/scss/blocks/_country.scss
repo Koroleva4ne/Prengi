@@ -1,0 +1,41 @@
+.country {
+    height: 85px;
+    padding-top: 20px;
+    .container {
+        display: grid;
+        grid-template-columns: 169px 195px 204px 211px 229px;
+        gap: 33px;
+    }
+    .item {
+        display: grid;
+        grid-template: 50px / 28px auto;
+        gap: 11px;
+        &__block {
+            display: grid;
+        }
+        &__img {
+            width: 28px;
+            height: 21px;
+        }
+        &__name {
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 100%;
+        }
+        &__tel, &__mail, &__addr {
+            font-size: 12px;
+            font-weight: 300;
+            line-height: 100%;
+            text-decoration: none;
+            color: $black-text;
+        }
+        &__tel, &__mail {
+            &:hover {
+                color: #0d6efd;
+            }
+        }
+    }
+    @media (max-width: 1200px) {
+        display: none;
+    }
+}

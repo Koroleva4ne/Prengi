@@ -1,0 +1,24 @@
+.title {
+    padding-top: 80px;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 1.2;
+    color: $black-text;
+    &_fz42 {
+        padding-top: 133px;
+        font-size: 42px;
+        text-align: left;
+        color: $white-text;
+        line-height: 1.14;
+        @media (max-width: 1200px) {
+            font-size: 38px;
+        }
+        @media (max-width: 768px) {
+            padding-top: 100px;
+        }
+        @media (max-width: 576px) {
+            padding-top: 70px;
+            font-size: 32px;
+        }
+    }
+}

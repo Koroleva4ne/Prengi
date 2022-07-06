@@ -1,0 +1,83 @@
+.promo {
+    position: relative;
+    height: 700px;
+    padding-top: 39px;
+    background: url(../img/bg_promo.jpg), url(../img/bg_gradient.jpg) center center/cover no-repeat;
+    z-index: 1;
+    background-blend-mode: multiply;
+    @media (max-width: 768px) {
+        padding-top: 20px;
+        height: 600px;
+    }
+    &__subtitle {
+        padding-top: 27px;
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 1.25;
+        color: $white-text;
+        span {
+            font-weight: 400;
+        }
+        @media (max-width: 576px) {
+            font-size: 20px;
+        }
+    }
+    &__img {
+        position: absolute;
+        top: 92px;
+        right: 0;
+        @media (max-width: 992px) {
+            display: none;
+        }
+    }
+}
+.container {
+    position: relative;
+}
+.hamburger {
+    display: none;
+    @media (max-width: 576px) {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        height: 21px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+        span {
+            display: block;
+            width: 30px;
+            height: 2px;
+            background: #fff;
+        }
+    }
+    @media (max-width: 576px) {
+        right: 20px;
+    }
+}
+.promo__menu {
+    position: absolute;
+    top: 25px;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 540px;
+    @media (max-width: 768px) {
+        top: 100px;
+        justify-content: space-between;
+    }
+    @media (max-width: 576px) {
+        display: none;
+    }
+    a {
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 100%;
+        text-decoration: none;
+        color: $white-text;
+        &:hover {
+            color: #0d6efd;
+        }
+    }
+}
