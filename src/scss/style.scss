@@ -1,6 +1,13 @@
 @import 'libs/_bootstrap-reboot.min';
 @import 'libs/_fonts.scss';
 @import 'base/_variables';
+@import 'blocks/country';
+@import 'blocks/menu';
+@import 'blocks/promo';
+@import 'blocks/with';
+@import 'blocks/industry';
+@import 'blocks/title';
+@import 'blocks/buttons';
 
 * {
     font-family: 'Roboto', sans-serif;
@@ -25,10 +32,3 @@
         padding: 0 10px;
     };
 }
-
-@import 'blocks/country';
-@import 'blocks/menu';
-@import 'blocks/promo';
-@import 'blocks/with';
-@import 'blocks/title';
-@import 'blocks/buttons';

@@ -1,3 +1,12 @@
+$(document).ready(function(){
+    $('.slider').slick({
+        speed: 300,
+        slidesToShow: 1,
+        prevArrow: '<button type="button" class="button-prev"></button>',
+        nextArrow: '<button type="button" class="button-next"></button>',
+    });
+});
+
 window.addEventListener('DOMContentLoaded', () => {
     const hamburger = document.querySelector('.hamburger'),
     menu = document.querySelector('.menu'),
@@ -10,4 +19,4 @@ window.addEventListener('DOMContentLoaded', () => {
     close.addEventListener('click', () => {
         menu.classList.remove('active');
     });
-})
+});
