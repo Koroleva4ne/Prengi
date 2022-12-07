@@ -1,0 +1,44 @@
+.advantages {
+    padding: 80px 0;
+    &__items {
+        margin-top: 44px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__item {
+        width: 570px;
+        height: 355px;
+        padding-top: 100px;
+        &_1 {
+            background: url('../../../img/advantages/time.jpg');
+        }
+        &_2 {
+            background: url('../../../img/advantages/intellect.jpg');
+        }
+        &_3 {
+            background: url('../../../img/advantages/from_all.jpg');
+        }
+        &_4 {
+            background: url('../../../img/advantages/availability.jpg');
+        }
+        &_5 {
+            background: url('../../../img/advantages/alive.jpg');
+        }
+        &_6 {
+            background: url('../../../img/advantages/payment.jpg');
+        }
+    }
+    &__tape {
+        background-color: rgba(0, 0, 0, 0.44);
+        width: 570px;
+        height: 156px;
+    }
+    &__descr {
+        padding-top: 40px;
+        font-size: 23px;
+        font-weight: 400;
+        line-height: 1.13;
+        text-align: center;
+        color: #fff;
+    }
+}
