@@ -9,4 +9,7 @@
     font-weight: 700;
     color: $white-text;
     text-transform: uppercase;
+    &:active {
+        background-color: rgb(0, 154, 200)
+    }
 }
